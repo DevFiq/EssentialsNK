@@ -1,6 +1,6 @@
 name: ${project.name}
 version: ${project.version}
-api: ["1.0.8"]
+api: ["2.0.0"]
 author: Scallop
 description: ${project.description}
 main: cn.yescallop.essentialsnk.EssentialsNK
