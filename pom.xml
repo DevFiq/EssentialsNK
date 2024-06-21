@@ -17,23 +17,14 @@
 
     <repositories>
         <repository>
-            <id>nukkitx-repo</id>
-            <url>https://repo.nukkitx.com/snapshot/</url>
+            <id>opencollab-dev-snapshots</id>
+            <url>https://repo.opencollab.dev/maven-snapshots/</url>
+        </repository>
+         <repository>
+            <id>opencollab-dev-releases</id>
+            <url>https://repo.opencollab.dev/maven-releases/</url>
         </repository>
     </repositories>
-
-    <distributionManagement>
-        <repository>
-            <id>releases</id>
-            <name>nukkitx-releases</name>
-            <url>https://repo.nukkitx.com/release</url>
-        </repository>
-        <snapshotRepository>
-            <id>snapshots</id>
-            <name>nukkitx-snapshots</name>
-            <url>https://repo.nukkitx.com/snapshot</url>
-        </snapshotRepository>
-    </distributionManagement>
 
     <dependencies>
         <dependency>
